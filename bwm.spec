@@ -1,5 +1,5 @@
-Summary:	Bandwidth monitor display bandwidth usage on all interfaces
-Summary(pl):	Bandwidth monitor wy¶wietla obci±zenie na interfejsach
+Summary:	Bandwidth monitor - display bandwidth usage on all interfaces
+Summary(pl):	Bandwidth monitor - wy¶wietlanie obci±¿eni± na interfejsach
 Name:		bwm
 Version:	1.1.0
 Release:	1
@@ -24,12 +24,13 @@ interfejsie z osobna oraz podsumowanie wszystkich interfejsów.
 %setup -q -n %{name}-%{version}.orig
 
 %build
-%{__make} CFLAGS="%{rpmcflags} -Wall"
+%{__make} \
+	CFLAGS="%{rpmcflags} -Wall"
 
 %install
 rm -rf $RPM_BUILD_ROOT
-
 install -d $RPM_BUILD_ROOT%{_bindir}
+
 install bwm $RPM_BUILD_ROOT%{_bindir}
 
 %clean
