@@ -1,5 +1,5 @@
 Summary:	Bandwidth monitor - display bandwidth usage on all interfaces
-Summary(pl):	Bandwidth monitor - wy¶wietlanie obci±¿eni± na interfejsach
+Summary(pl):	Bandwidth monitor - wy¶wietlanie obci±¿enia na interfejsach
 Name:		bwm
 Version:	1.1.0
 Release:	1
