@@ -4,7 +4,7 @@ Name:		bwm
 Version:	1.1.0
 Release:	1
 License:	GPL
-Group:		Networking/Utilities	
+Group:		Networking/Utilities
 Source0:	http://ftp.debian.org/debian/pool/main/b/bwm/%{name}_%{version}.orig.tar.gz
 # Source0-md5:	51021a036acb92d2bda0c0c0483f9552
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
