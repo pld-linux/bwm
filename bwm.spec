@@ -1,5 +1,5 @@
 Summary:	Bandwidth monitor - display bandwidth usage on all interfaces
-Summary(pl):	Bandwidth monitor - wy¶wietlanie obci±¿enia na interfejsach
+Summary(pl.UTF-8):   Bandwidth monitor - wyÅ›wietlanie obciÄ…Å¼enia na interfejsach
 Name:		bwm
 Version:	1.1.0
 Release:	1
@@ -15,10 +15,10 @@ view the bandwidth currently being consumed to and from each network
 interface, the total bandwidth in use on each interface, and the total
 bandwidth in use on all interfaces.
 
-%description -l pl
-Bandwidth monitor jest bardzo ma³ym i prostym narzêdziem pozwalaj±cym
-u¿ytkownikowi obserwowaæ bie¿±ce u¿ycie ³±cza. Pokazuje ruch na ka¿dym
-interfejsie z osobna oraz podsumowanie wszystkich interfejsów.
+%description -l pl.UTF-8
+Bandwidth monitor jest bardzo maÅ‚ym i prostym narzÄ™dziem pozwalajÄ…cym
+uÅ¼ytkownikowi obserwowaÄ‡ bieÅ¼Ä…ce uÅ¼ycie Å‚Ä…cza. Pokazuje ruch na kaÅ¼dym
+interfejsie z osobna oraz podsumowanie wszystkich interfejsÃ³w.
 
 %prep
 %setup -q -n %{name}-%{version}.orig
