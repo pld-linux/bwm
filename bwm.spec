@@ -2,7 +2,7 @@ Summary:	Bandwidth monitor - display bandwidth usage on all interfaces
 Summary(pl.UTF-8):	Bandwidth monitor - wyświetlanie obciążenia na interfejsach
 Name:		bwm
 Version:	1.1.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		Networking/Utilities
 Source0:	http://ftp.debian.org/debian/pool/main/b/bwm/%{name}_%{version}.orig.tar.gz
